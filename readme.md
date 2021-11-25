@@ -21,3 +21,7 @@ ideally you'd get a server and then install apache2 and git on it
 after that just setup the server properly then go into /var/www/html/ and then just git clone this repository into it
 
 should be simple
+
+also dont forget to delete this file in the website folder
+
+this readme wont be updated again unless something new and important requires explanation
