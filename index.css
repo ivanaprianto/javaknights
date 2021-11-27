@@ -12,11 +12,12 @@ ul {
   
   li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: gray;
     text-align: center;
     padding: 1vw 1vw;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
@@ -37,15 +38,63 @@ ul {
   }
   
   .dropdown-content a {
-    color: white;
+    color: gray;
     padding: 1vw 1vw;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .dropdown-content a:hover {background-color: #333;}
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    width: 85%;
+  }
+
+  .rightdiv {
+    float: right;
+    width: 45%;
+    padding: 1%;
+  }
+
+  .leftdiv {
+    float: left;
+    width: 45%;
+    padding: 1%;
+    background-color: #444;
+  }
+
+  .leftdiv img {
+    width: 98%;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  body h1 {
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+  }
+
+  body p {
+    padding-top: 2%;
+    font-size: 2vw;
+    color: gray;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
   }
