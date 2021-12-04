@@ -64,17 +64,33 @@ ul {
     float: right;
     width: 45%;
     padding: 1%;
+    margin-bottom: 4%;
+    color: gray;
+  }
+  
+  .rightdiv img {
+    width: 98%;
   }
 
   .leftdiv {
     float: left;
     width: 45%;
     padding: 1%;
-    background-color: #444;
+    margin-bottom: 4%;
+    color: gray;
   }
 
   .leftdiv img {
     width: 98%;
+  }
+
+  .middiv {
+    position: static;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 4%;
+    float: none;
   }
 
   body {
