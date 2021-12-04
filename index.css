@@ -85,6 +85,7 @@ ul {
   }
 
   .middiv {
+    display: block;
     position: static;
     text-align: center;
     width: 85%;
@@ -113,4 +114,11 @@ ul {
   p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
+  }
+
+  #history {
+    font-size: 4vw;
+    color: gray;
+    border-bottom: 2px #6e600a;
+    border-top: 2px #6e600a;
   }
