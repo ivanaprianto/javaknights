@@ -25,15 +25,15 @@ should be simple
 also dont forget to delete this file in the website folder
 
 # the funny fast install script
-the script assumes that you are using centos and have the server setup exactly like mine and have properly setup the virtualhost thing so that it goes to the correct file
+it worked last time i tried and it should work this time
 
 first do git clone https://github.com/ivanaprianto/javaknights.git
 
 then cd into that folder you just cloned
 
-do sudo chmod +x run.sh
+do sudo chmod +x install.sh
 
-then do sudo ./run.sh
+then do sudo ./install.sh
 
 it should do the rest on its own
 
